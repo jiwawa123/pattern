@@ -12,6 +12,7 @@ public class SingletonI {
     private static SingletonI tmp = new SingletonI();
 
     public static SingletonI SingletonI() {
+        
         return tmp;
     }
 }
